@@ -1,0 +1,189 @@
+*{
+    box-sizing: border-box;
+    margin: 0px; 
+    padding: 0px; 
+}
+
+a{ 
+    text-decoration: none; 
+}
+
+a:hover{ 
+    text-decoration: none!important; 
+}
+
+li{ 
+    list-style: none;
+}
+
+/**************************  Navbar.php *****************************************************/
+.navbar:before{
+    width: 100%;
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    z-index: -1;
+    padding: 2%;
+    background-color:rgb(83, 139, 153) ;
+    
+}
+
+.nav-item a{
+    color: white!important;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.nav-item:hover{
+    background-color:rgb(83, 139, 153);
+}
+
+/************************** Index.php ****************************************/
+.carousel-item{
+
+   height:100vh;
+    background-size: 100% 100%;
+}
+
+.section-form{
+    padding:2% 10% 0 10%;
+    background-image: linear-gradient(to bottom, rgb(83, 139, 153),rgba(83, 139, 153, 0.2));
+    height:450px;
+    width: 520px;
+    border-radius: 10px;
+}
+
+.section-form:hover{
+    transform: translateY(-2%);
+    box-shadow: 0 0 5px 0;
+}
+.MAIN-FORM {
+  margin-top: 10rem;
+}
+#submit_feedback{
+    color: white;
+    font-weight: bold;
+    margin: 1% 0 0 25%;
+    padding-left: 20%;
+    padding-right: 20%;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(83, 139, 153);
+}
+
+#submit_feedback:hover{
+    box-shadow: 2px 3px black;
+    transform: translateY(-2%);
+    
+}
+
+.contact_us{
+    background-size: 100% 100%;
+}
+
+.header-extradiv{
+    margin: 2%;
+}
+
+#gmap_canvas:hover{
+    transform: translateY(-2%);
+    box-shadow: 0 0 5px 0;
+}
+
+/***********************************************************/
+.table, .table td,.table th{
+    border :1px solid black;
+}
+
+.table{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.table th{
+    background-color: rgb(83, 139, 153);
+    color:white;
+    font-size: larger;
+}
+
+.table tr:nth-child(even){
+    background-color: rgb(240, 234, 240);
+}
+
+.table tr:hover{
+    background-color: rgb(230, 224, 230);
+}
+
+.form-group input, .form-group textarea, .form-group select{
+    border-radius: 20px;
+    padding-left: 50x;
+    border: 1px solid rgb(83, 139, 153);
+}
+
+/********************************* allCustomer.php ******************************************/
+
+#transfer_button{
+    padding: 0 7px 0 7px;
+    border-radius: 0px;
+    background-color: rgb(83, 139, 153);
+}
+
+#transfer_button:hover{
+    box-shadow:3px 4px black;
+    border-radius: 2px;
+    transform: translateY(-2px);
+}
+
+#transfer_button a{
+    color: white!important;
+}
+
+
+
+/******************************** Transfer.php ***************************************/
+.chapterCard{
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, rgb(83, 139, 153),rgba(83, 139, 153, 0.2));
+    padding: 4%;
+}
+
+
+.chapterCard:hover{
+    transform: translateY(-2%);
+    box-shadow: 0 0 5px 0;
+}
+
+
+input, textarea{
+    padding: 5px;
+}
+
+.dropClass{
+    padding: 5px;
+}
+
+#submit_money{
+    border: 1px solid black;
+    padding: 1% 5% 1% 5%;
+    background-color: rgb(83, 139, 153);
+    color: white;
+    border-radius: 20px;
+    margin-top: 5%;
+}
+
+#submit_money:hover{
+    box-shadow: 2px 3px black;
+    transform: translateY(-3%);
+    font-weight: bold;
+}
+
+.chapterCard input, .chapterCard select, .chapterCard label, .chapterCard select option{
+    font-weight: 400;
+    color: black;
+}
